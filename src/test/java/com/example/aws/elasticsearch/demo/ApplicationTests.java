@@ -50,7 +50,7 @@ public class ApplicationTests {
 	       Aggregations aggregations = searchResponse.getAggregations();
 
 	       Terms byCompanyAggregation = aggregations.get("by_technology");
-	       Terms.Bucket elasticBucket = byCompanyAggregation.getBucketByKey("java");
+	       Terms.Bucket elasticBucket = byCompanyAggregation.getBucketByKey("java1");
 //	       try {
 //			System.out.println(objectMapper.writeValueAsString(elasticBucket));
 //		} catch (JsonProcessingException e) {
