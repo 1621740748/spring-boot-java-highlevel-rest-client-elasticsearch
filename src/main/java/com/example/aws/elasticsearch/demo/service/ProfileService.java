@@ -161,7 +161,7 @@ public class ProfileService {
                 .must(QueryBuilders
                         .matchQuery("technologies.name",technology));
 
-        searchSourceBuilder.query(QueryBuilders.nestedQuery("technologies",queryBuilder,ScoreMode.Avg));
+        searchSourceBuilder.query(queryBuilder);
 
         searchRequest.source(searchSourceBuilder);
 
