@@ -116,7 +116,7 @@ public class ProfileService {
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
 
         MatchQueryBuilder matchQueryBuilder = QueryBuilders
-                .matchQuery("name",name)
+                .matchQuery("firstName",name)
                 .operator(Operator.AND);
 
         searchSourceBuilder.query(matchQueryBuilder);

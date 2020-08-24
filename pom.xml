@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.example.aws.elasticsearch</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.example.aws.elasticsearch1</groupId>
+	<artifactId>demo11</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>org.elasticsearch</groupId>
 			<artifactId>elasticsearch</artifactId>
-			<version>LATEST</version>
+			<version>7.9.0</version>
 		</dependency>
 
         <dependency>
@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId> org.elasticsearch.client</groupId>
 			<artifactId>elasticsearch-rest-high-level-client</artifactId>
-			<version>7.3.0</version>
+			<version>7.9.0</version>
 		</dependency>
 
         <dependency>

@@ -45,7 +45,7 @@ public class ProfileController {
         return service.findById(id);
     }
 
-    @GetMapping
+    @GetMapping("/findAll")
     public List<ProfileDocument> findAll() throws Exception {
 
         return service.findAll();
